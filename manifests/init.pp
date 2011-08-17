@@ -1,6 +1,6 @@
 class rvm {
 
-  case $operatingsysem {
+  case $operatingsystem {
     'ubuntu','debian': { require rvm::system::ubuntu }
     'redhat','centos': { require rvm::system::centos }
   }

@@ -1,4 +1,4 @@
-class rvm::dependencies::ubuntu {
+class rvm::system::ubuntu {
 
   $packages = [ 'build-essential',
     'bison',

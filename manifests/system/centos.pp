@@ -1,11 +1,11 @@
-class rvm::dependencies::centos {
+class rvm::system::centos {
 
   $packages = [ 'which',
     'gcc',
     'gcc-c++',
     'make',
-    'gettext-devel',
-    'expat-devel',
+    'gettext',
+    'expat',
     'curl-devel',
     'zlib-devel', 
     'openssl-devel',
